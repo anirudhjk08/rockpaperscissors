@@ -39,6 +39,7 @@
 }
 .result{
     font-size: large;
+    text-align: center;
 }
 .result,.text,.score{
     color:blue;
