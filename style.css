@@ -1,0 +1,46 @@
+#rock{
+    margin: 10px;
+    padding: 25px;
+    background-color: aqua;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+#paper{
+    margin: 10px;
+    padding: 25px;
+    background-color: lightgreen;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+#scissors{
+    margin: 10px;
+    padding: 25px;
+    background-color: lightcoral;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.score{
+    margin: 50px;
+    text-align: center;
+    font-size: large;
+}
+.text{
+    text-align: center;
+    margin: 50px;
+    font-size: large;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.result{
+    font-size: large;
+}
+.result,.text,.score{
+    color:blue;
+    border: 2px solid black;
+}
